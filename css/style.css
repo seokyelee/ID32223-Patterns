@@ -1,9 +1,13 @@
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #1e1e1e;
-  background-color: #e1e1e1;
-  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: #000063;
+  background-color:  #ef9a9a;
+  font-weight: 300;
+ 
+}
+.title-of-document{
+  text-align: center;
 }
 
 h1,
@@ -49,32 +53,34 @@ button,
 .btn {
   display: inline-block;
   padding: 0 16px;
-  background-color: #729f34;
+  background-color: #000063;
   text-decoration: none;
   color: white;
-  border: 1px solid #a2a2a2;
+  border: none;
   line-height: 2;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
   cursor: pointer;
+  border-radius: 4px;
+  margin-top: 30px;
 }
 
 button:hover,
 .btn:hover {
-  background-color: #8fc741;
+  background-color: #f50057;
 }
 
 .btn--secondary {
   background-color: #dadada;
-  color: #1e1e1e;
+  color: #f50057;
 }
 .btn--secondary:hover {
   background-color: white;
+  
 }
-
 
 code {
   background-color: #e1e1e1;
@@ -86,96 +92,74 @@ code {
 /* ---> UTILITIES */
 
 /* Colors */
-.color-green {
-  color: #729f34;
+.color-coral {
+  color: #ef9a9a;
 }
-.bg-color-green {
-  background-color: #729f34;
-}
-
-.color-green-3 {
-  color: #8fc741;
-}
-.bg-color-green-3 {
-  background-color: #8fc741;
+.bg-color-Deeppurple {
+  background-color: #000063;
 }
 
-.color-blue {
-  color: #002137;
-}
-.bg-color-blue {
-  background-color: #002137;
+.color-pink {
+  color: #f50057;
 }
 
-.color-blue-3 {
-  color: #4D6473;
-}
-.bg-color-blue-3 {
-  background-color: #4D6473;
+.bg-color-purpulebule {
+  background-color: #6745c2;
 }
 
-.color-grey {
-  color: #1e1e1e;
-}
-.bg-color-grey {
-  background-color: #1e1e1e;
+.bg-color-pink {
+  color: #f50057;
 }
 
-.color-grey-2 {
-  color: #a2a2a2;
-}
-.bg-color-grey-2 {
-  background-color: #a2a2a2;
+.bg-color-Deeppurple {
+  background: #000063;
 }
 
-.color-grey-3 {
-  color: #a2a2a2;
-}
-.bg-color-grey-3 {
-  background-color: #a2a2a2;
+.bg-color-pink {
+  background-color:#f50057;
 }
 
-.color-grey-5 {
-  color: #dadada;
+.bg-color-white{
+  background-color:white;
 }
-.bg-color-grey-5 {
-  background-color: #dadada;
-}
-
-
 
 /* Own styles, these are only for styling THIS page */
 
 .pattern-content {
-  max-width: 800px;
-  padding: 16px;
-  margin: 16px auto;
-  background-color: white;
+  max-width: 900px;
+  padding: 50px;
+  margin: 20px auto;
+  background-color: #ef9a9a;
   border-radius: 8px;
 }
 
 .pattern-section {
-  margin-bottom: 64px;
+  margin-bottom: 100px;
+  color:#000063;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 .pattern-color {
   display: inline-block;
-  width: 100px;
+  width: 300px;
   height: 100px;
   position: relative;
+  margin-right: 10px;
+  border-radius: 4px;
 }
 
 .pattern-color:before {
   content: attr(data-color);
-  background-color: rgba(0,0,0,0.2);
+  background-color:#000063;
   display: block;
   color: white;
   text-align: center;
+  padding: 10px 10px;
 }
 
 .pattern-title {
-  border-bottom: 1px solid #e1e1e1;
-  opacity: 0.6;
+  border-bottom: 2px solid #000063;
+  opacity: 0.5;
 }
 
 [data-header]:before {
