@@ -56,7 +56,7 @@ button,
   padding: 0 16px;
   background-color: #000063;
   text-decoration: none;
-  color: white;
+  color: 	#FFFFFF;
   border: none;
   line-height: 2;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ button:hover,
   color: #f50057;
 }
 .btn--secondary:hover {
-  background-color: white;
+  background-color: 	#FFFFFF;
   
 }
 
@@ -121,7 +121,7 @@ code {
 }
 
 .bg-color-white{
-  background-color:white;
+  background-color:	#FFFFFF;
 }
 
 /* Own styles, these are only for styling THIS page */
@@ -153,7 +153,7 @@ code {
   content: attr(data-color);
   background-color:#000063;
   display: block;
-  color: white;
+  color: 	#FFFFFF;
   text-align: center;
   padding: 10px 10px;
 }
