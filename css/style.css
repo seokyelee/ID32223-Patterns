@@ -123,12 +123,24 @@ code {
 }
 
 .pattern-color .bg-color {
-  display: inline-block;
   width: 900px;
   height: 40px;
-  position: relative;
   margin-right: 10px;
   border-radius: 4px;
+}
+
+.tooltip {
+  display:none;
+  width: 1200px;
+  height: 60px;
+  color: black;
+  border: 1px solid #767676;
+  background: #dadada;
+  opacity: 85%;
+}
+
+.color-name:hover .tooltip {
+  display:block;
 }
 
 .bg-color-white .color-name {
