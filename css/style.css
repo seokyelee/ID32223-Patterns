@@ -49,7 +49,6 @@ small {
   color:#029e82;
 }
 
-
 p{
   color:#767676;
 }
@@ -114,6 +113,10 @@ textarea:hover {
 /* ---> UTILITIES */
 
 /* Colors */
+p.name {
+  color: #029e82;
+}
+
 .bg-color-green {
   background-color: #03E3BA;
 }
@@ -155,16 +158,14 @@ textarea:hover {
 }
 
 .pattern-color .bg-color {
-  width: 900px;
-  height: 40px;
   margin-right: 10px;
   border-radius: 4px;
 }
 
 .tooltip {
   display:none;
-  width: 1200px;
-  height: 60px;
+  width: 850px;
+  height: 100px;
   color: black;
   border: 1px solid #767676;
   background: #dadada;
@@ -176,14 +177,14 @@ textarea:hover {
 }
 
 .bg-color-white .color-name {
-  border-bottom:none;
+  border-bottom: none;
 }
 
 .color-name {
   width: 200px;
   height: 40px;
   border-bottom: 0.5px solid #999898;
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
   display: block;
   color: #767676;
   text-align: center;
@@ -195,3 +196,50 @@ textarea:hover {
   color:#999898;
 }
 
+main {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.header {
+width: 20%;
+position: fixed;
+align-items: stretch;
+top: 0; left: 0;
+}
+
+.pattern-section--colors {
+  width: 80%;
+  padding-left: 20%;
+}
+
+.pattern-section--font {
+  padding-top:50px;
+  padding-left:20%;
+  width: 80%;
+}
+
+.pattern-sectio--boton {
+  padding-top:50px;
+  padding-left:20%;
+  width: 80%;
+}
+
+.pattern-section--form{
+  padding-top:50px;
+  padding-left:20%;
+  width: 80%;
+}
+
+.footer { 
+  padding-top:50px;
+  align-self: flex-end;
+  text-align: right ;
+  font: 12px 'IBM Plex Sans', sans-serif;
+  color:#029e82;
+  padding-left:20%;
+  width: 80%;
+}
