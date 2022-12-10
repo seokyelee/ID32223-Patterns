@@ -53,6 +53,7 @@ small {
 p{
   color:#767676;
 }
+
 button,
 .btn {
   display: inline-block;
@@ -89,19 +90,25 @@ code {
 
 .text {
   color:#767676;
-  padding-bottom:50px;
 }
 
-[type="text"]{
+form{
+  line-height:40px;
+  padding:30px 0px;
+}
+
+textarea {
   display:block;
+  border-radius: 5px;
   width: 300px;
   height: 100px;
   background-color: #c7c7c7;
   color:#029e82;
 }
 
-[type="text"]:hover {
+textarea:hover {
   background-color: #FFFFFF;
+  border: 3px solid rgb(116, 69, 150);
 }
 
 /* ---> UTILITIES */
