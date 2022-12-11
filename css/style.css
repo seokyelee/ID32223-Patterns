@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif;
   color:#FFFFFF;
-  font-weight: 400px;
 }
 
 h1,
@@ -11,7 +10,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
   margin-bottom: 0.5em;
 }
 h1,
@@ -198,7 +196,7 @@ p.name {
 
 main {
   display: flex;
-  min-width: 100vw;
+  width: 100vw;
   min-height: 100vh;
   flex-flow: row wrap;
   justify-content: space-evenly;
